@@ -23,7 +23,6 @@ class ViewController: UIViewController {
         viewModelClosures()
         let font = UIFont.systemFont(ofSize: 12)
         segmentedControl.setTitleTextAttributes([NSAttributedString.Key.font: font], for: .normal)
-
     }
 
     override func viewDidAppear(_ animated: Bool) {
